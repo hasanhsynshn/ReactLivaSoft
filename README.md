@@ -10,8 +10,8 @@ npm install
 npm run start
 
 
- * Aşağıdaki mantık hatasını açıklayınız.
- * input a girilen değeri 250ms sonra ekrana yazdırınız
+ * Mantık hatasını açıklayınız.
+ * Input a girilen değeri 250ms sonra ekrana yazdırınız
 
 
 
