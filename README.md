@@ -11,7 +11,7 @@ npm run start
 
 
  * Mantık hatasını açıklayınız.
- * Input a girilen değeri 250ms sonra ekrana yazdırınız
+ * Input a girilen değeri 50ms sonra ekrana yazdırınız
 
 
 
