@@ -5,7 +5,7 @@ import "./styles.css";
 
 class App extends React.Component {
   state = { search: "" };
-  handleChange = event => {
+  inputChange = event => {
     /**
      * Aşağıdaki mantık hatasını açıklayınız.
      * input a girilen değeri 250ms sonra ekrana yazdırınız
@@ -22,8 +22,8 @@ class App extends React.Component {
   render() {
     return (
       <div>
-        <input type="text" onChange={this.handleChange} />
-        {this.state.search ? <p>Search for: {this.state.search}</p> : null}
+        <input type="text" onChange={this.inputChange} />
+        {this.state.search ? <p>Aranan Değer: {this.state.search}</p> : null}
       </div>
     );
   }
