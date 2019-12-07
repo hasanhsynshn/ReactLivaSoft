@@ -16,7 +16,7 @@ class App extends React.Component {
       this.setState({
         search: event.target.value
       });
-    }, 250);
+    }, 50);
   };
 
   render() {
